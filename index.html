@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    .hero {
+      background: #7e6a06;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .hero img {
+      width: 100px;
+      border-radius: 50%;
+    }
+    .projects img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    footer {
+      background: #292621;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<!-- H0mepage Section -->
+<section class="hero">
+  <img src="./avatar.jpg.jpeg" class="img-fluid rounded-circle d-block mx-auto" alt="PICTURE">
+  <h1 class="mt-3">NGAH VALDES NKENG</h1>
+  <p class="lead">CYBER SECURITY ANALYST | HACKER | Tech Enthusiast</p>
+  <p>Hello! I'm a passionate Cyber Security Analyst with experience in Penetration testing and Malware Analyst</p>
+  <a href="#projects" class="btn btn-primary m-2">View My Work</a>
+  <a href="#contact" class="btn btn-outline-secondary m-2">Contact Me</a>
+</section>
+
+<!-- About Section -->
+<section id="about" class="container my-5">
+  <div class="row align-items-center">
+    <div class="col-md-4">
+      <img src="./avatar.jpg.jpeg" alt="Your Headshot" class="img-fluid rounded-circle">
+    </div>
+    <div class="col-md-8">
+      <h2>About Me</h2>
+      <p>I have a strong background in front-end development with a passion for creating engaging user experiences. I specialize in HTML, CSS, JavaScript, and Bootstrap.</p>
+      <h5>Skills</h5>
+      <span class="badge bg-primary">Penetration Testing</span>
+      <span class="badge bg-success">Malware Analyst</span>
+      <span class="badge bg-info">Cloud Security</span>
+    <div class="mt-3">
+        <p>Penetration Testing</p>
+        <div class="progress">
+          <div class="progress-bar" style="width: 90%;">90%</div>
+        </div>
+        <p class="mt-2">Malware Analyst</p>
+        <div class="progress">
+          <div class="progress-bar bg-success" style="width: 85%;">85%</div>
+        </div>
+        <p class="mt-2">Cloud Security</p>
+        <div class="progress">
+          <div class="progress-bar bg-info" style="width: 75%;">75%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects container my-5">
+  <h2 class="text-center mb-4">Projects</h2>
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="./steps-in-vulnerability-assessment.png" class="card-img-top" alt="Project 1">
+        <div class="card-body">
+          <h5 class="card-title">Vulnerability Assessment</h5>
+          <p class="card-text">Scan a web application using Nessus.</p>
+          <a href="#" class="btn btn-sm btn-primary">View Project</a>
+          <a href="#" class="btn btn-sm btn-outline-secondary">GitHub</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="./1_3aC-D1ULQ7-sttUJYkY6WA.png" class="card-img-top" alt="Project 2">
+        <div class="card-body">
+          <h5 class="card-title">Static Anlysis of a malware</h5>
+          <p class="card-text">Analyze a known malware binary using PEStudio.</p>
+          <a href="#" class="btn btn-sm btn-primary">View project</a>
+          <a href="#" class="btn btn-sm btn-outline-secondary">GitHub</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="./Machine-learning-solutoin-developed-for-customer-1-1121x630.png" class="card-img-top" alt="Project 3">
+        <div class="card-body">
+          <h5 class="card-title">Secure AWS Architecture setup</h5>
+          <p class="card-text">Setup a secure VPC with EC2,E3, and RDS </p>
+          <a href="#" class="btn btn-sm btn-primary">View project</a>
+          <a href="#" class="btn btn-sm btn-outline-secondary">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="container my-5">
+  <h2 class="text-center mb-4">Contact Me</h2>
+  <div class="row">
+    <div class="col-md-6">
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Your Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Your Email</label>
+          <input type="email" class="form-control" id="email" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Your Message</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Write your message here..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+    <div class="col-md-6">
+      <h5>Email:</h5>
+      <p>Ngahvaldes.Nkeng@ictuniveristy.edu.cm</p>
+      <h5>Social:</h5>
+      <p><a href="https://instagram.com/valds_perez" target="_blank">instagram.com/valds_perez</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2025 NGAH VALDES </p>
+  <div>
+    
+    <a href="#" class="text-light me-2">GitHub</a>
+    <a href="#" class="text-light">Portfolio</a>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
